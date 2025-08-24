@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | Delish Dine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Delish Dine</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html" class="active">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="menu-section">
+    <h2>Our Menu</h2>
+    <div class="menu-filters">
+      <button onclick="filterMenu('all')">All</button>
+      <button onclick="filterMenu('starter')">Starters</button>
+      <button onclick="filterMenu('main')">Main</button>
+      <button onclick="filterMenu('dessert')">Desserts</button>
+      <button onclick="filterMenu('beverage')">Beverages</button>
+    </div>
+
+    <div class="menu-grid">
+
+      <!-- Starters -->
+      <div class="menu-item starter">Garlic Bread with Herbs – ₹150</div>
+      <div class="menu-item starter">Classic Caesar Salad – ₹200</div>
+      <div class="menu-item starter">Paneer Tikka Skewers – ₹250</div>
+      <div class="menu-item starter">Veg Hakka Spring Rolls – ₹180</div>
+      <div class="menu-item starter">Crispy Corn Pepper Salt – ₹160</div>
+      <div class="menu-item starter">Masala Papad – ₹80</div>
+      <div class="menu-item starter">Veg Seekh Kebab – ₹220</div>
+      <div class="menu-item starter">Stuffed Mushrooms – ₹260</div>
+      <div class="menu-item starter">Chilli Paneer Dry – ₹280</div>
+      <div class="menu-item starter">Onion Pakora – ₹100</div>
+      <div class="menu-item starter">Cheese Balls – ₹150</div>
+
+      <!-- Main Courses -->
+      <div class="menu-item main">Paneer Butter Masala with Naan – ₹380</div>
+      <div class="menu-item main">Dal Makhani with Jeera Rice – ₹340</div>
+      <div class="menu-item main">Vegetable Biryani with Raita – ₹350</div>
+      <div class="menu-item main">Palak Paneer with Tandoori Roti – ₹360</div>
+      <div class="menu-item main">Chole Bhature – ₹280</div>
+      <div class="menu-item main">Aloo Gobi Masala with Paratha – ₹300</div>
+      <div class="menu-item main">Kadhai Paneer with Butter Naan – ₹390</div>
+      <div class="menu-item main">Vegetable Pulao with Raita – ₹310</div>
+      <div class="menu-item main">Veg Fried Rice with Manchurian – ₹320</div>
+      <div class="menu-item main">Pav Bhaji with Butter Pav – ₹180</div>
+      <div class="menu-item main">Rajma Chawal – ₹280</div>
+      <div class="menu-item main">Paneer Bhurji with Lachha Paratha – ₹320</div>
+      <div class="menu-item main">Veg Lasagna – ₹400</div>
+      <div class="menu-item main">Stuffed Capsicum – ₹360</div>
+      <div class="menu-item main">Vegetable Korma with Poori – ₹300</div>
+      <div class="menu-item main">Veg Pizza Margherita – ₹350</div>
+      <div class="menu-item main">Mushroom Do Pyaza with Butter Naan – ₹370</div>
+
+      <!-- Desserts -->
+      <div class="menu-item dessert">Chocolate Lava Cake – ₹220</div>
+      <div class="menu-item dessert">Cheesecake with Berry Compote – ₹250</div>
+      <div class="menu-item dessert">Gulab Jamun (2 pcs) – ₹90</div>
+      <div class="menu-item dessert">Rasgulla – ₹80</div>
+      <div class="menu-item dessert">Rasmalai – ₹110</div>
+      <div class="menu-item dessert">Kulfi Falooda – ₹180</div>
+      <div class="menu-item dessert">Kaju Katli – ₹150</div>
+      <div class="menu-item dessert">Moong Dal Halwa – ₹200</div>
+      <div class="menu-item dessert">Carrot Halwa – ₹180</div>
+      <div class="menu-item dessert">Ice Cream Sundae – ₹160</div>
+      <div class="menu-item dessert">Mango Pudding – ₹140</div>
+      <div class="menu-item dessert">Fruit Custard – ₹120</div>
+      <div class="menu-item dessert">Pineapple Pastry – ₹100</div>
+      <div class="menu-item dessert">Brownie with Ice Cream – ₹220</div>
+
+      <!-- Beverages -->
+      <div class="menu-item beverage">Fresh Lime Soda – ₹80</div>
+      <div class="menu-item beverage">Masala Chai – ₹60</div>
+      <div class="menu-item beverage">Cold Coffee with Ice Cream – ₹150</div>
+      <div class="menu-item beverage">Rose Sharbat – ₹70</div>
+      <div class="menu-item beverage">Aam Panna – ₹90</div>
+      <div class="menu-item beverage">Buttermilk (Chaas) – ₹60</div>
+      <div class="menu-item beverage">Salted Lassi – ₹70</div>
+      <div class="menu-item beverage">Mango Shake – ₹100</div>
+      <div class="menu-item beverage">Banana Shake – ₹90</div>
+      <div class="menu-item beverage">Rose Milk – ₹80</div>
+      <div class="menu-item beverage">Hot Chocolate – ₹140</div>
+      <div class="menu-item beverage">Filter Coffee – ₹90</div>
+      <div class="menu-item beverage">Green Tea – ₹70</div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Delish Dine | All Rights Reserved</p>
+  </footer>
+</body>
+<script src="script.js"></script>
+</html>
