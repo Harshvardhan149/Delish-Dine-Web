@@ -20,7 +20,7 @@ It combines elegant design, responsive layouts, and engaging content to showcase
 ## 🛠️ Tech Stack  
 - **HTML5** – Clean and semantic structure  
 - **CSS3** – Modern styling with responsiveness  
-- **JavaScript (Vanilla)** – Dynamic interactivity  
+- **JavaScript** – Dynamic interactivity  
 - **Mobile-First Design** – Optimized for all screen sizes  
 
 ---
